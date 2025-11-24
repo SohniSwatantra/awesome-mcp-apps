@@ -42,8 +42,8 @@ body:
       label: Category
       description: Where does this belong?
       options:
-        - Featured MCP Apps
-        - MCP-UI Components
+        - Featured MCPApps
+        - MCPApps (UI/Components)
         - MCP Servers
         - Tools & SDKs
         - Templates & Starters
@@ -63,4 +63,3 @@ body:
           required: true
         - label: I have checked for duplicates.
           required: true
-

@@ -1,6 +1,8 @@
 # Awesome MCP Apps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of awesome applications, servers, tools, and resources for the **Model Context Protocol (MCP)**.
+A curated list of awesome applications, servers, tools, and resources for the **Model Context Protocol (MCP)**. 
+
+> **The centralized directory of top MCPApps.** Maintaining the standard for Model Context Protocol applications and ecosystem.
 
 The Model Context Protocol (MCP) is an open standard that enables AI models to interact with your data and tools. It provides a universal way to connect AI assistants to systems like databases, tailored APIs, and business applications.
 
@@ -8,8 +10,8 @@ The Model Context Protocol (MCP) is an open standard that enables AI models to i
 
 ## 📋 Table of Contents
 
-- [Featured MCP Apps](#featured-mcp-apps)
-- [MCP-UI Components](#mcp-ui-components)
+- [Featured MCPApps](#featured-mcpapps)
+- [MCPApps (UI/Components)](#mcpapps-uicomponents)
 - [MCP Servers](#mcp-servers)
 - [Tools & SDKs](#tools-s-sdks)
 - [Templates & Starters](#templates--starters)
@@ -20,7 +22,7 @@ The Model Context Protocol (MCP) is an open standard that enables AI models to i
 
 ---
 
-## 🌟 Featured MCP Apps
+## 🌟 Featured MCPApps
 
 Applications that showcase the power of MCP in production or creative environments.
 
@@ -28,9 +30,9 @@ Applications that showcase the power of MCP in production or creative environmen
 - [Cursor](https://cursor.com) - The AI code editor that can connect to MCP servers for enhanced codebase context (Coming soon/Experimental).
 - *[Add your app here]*
 
-## 🧩 MCP-UI Components
+## 🧩 MCPApps (UI/Components)
 
-Reusable UI components for building MCP-enabled interfaces.
+Standardized **MCPApps** UI components and frontend libraries (formerly MCP-UI).
 
 - *[Add a component here]*
 
@@ -98,4 +100,3 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 ## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-

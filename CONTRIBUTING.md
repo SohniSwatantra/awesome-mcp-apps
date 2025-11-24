@@ -39,8 +39,8 @@ Please follow this format for list entries:
 
 Choose the most specific category for your entry:
 
-*   **Featured MCP Apps**: Production-ready applications.
-*   **MCP-UI Components**: Frontend libraries and UI kits.
+*   **Featured MCPApps**: Production-ready applications.
+*   **MCPApps (UI/Components)**: Frontend libraries, UI kits, and components (formerly MCP-UI).
 *   **MCP Servers**: Implementations of MCP servers.
 *   **Tools & SDKs**: Development tools and language bindings.
 *   **Templates & Starters**: Boilerplate code.
@@ -61,4 +61,3 @@ If you are suggesting a featured app that benefits from a visual preview:
 ## Code of Conduct
 
 By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
-
