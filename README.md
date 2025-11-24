@@ -1,10 +1,12 @@
 # Awesome MCP Apps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of awesome applications, servers, tools, and resources for the **Model Context Protocol (MCP)**. 
+A curated list of awesome applications, servers, tools, and resources for the **Model Context Protocol (MCP)**.
 
 > **The centralized directory of top MCPApps.** Maintaining the standard for Model Context Protocol applications and ecosystem.
 
 The Model Context Protocol (MCP) is an open standard that enables AI models to interact with your data and tools. It provides a universal way to connect AI assistants to systems like databases, tailored APIs, and business applications.
+
+This list also serves as the home for **MCP-UI** (now **MCPApps UI**)—the standardized collection of reusable components for building consistent and powerful MCP interfaces.
 
 > 🚀 **New to MCP?** Check out the [official documentation](https://modelcontextprotocol.io/introduction) to get started!
 
