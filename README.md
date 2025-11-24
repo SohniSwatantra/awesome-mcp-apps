@@ -149,7 +149,7 @@ function MyApp({ mcpResource }) {
 ## 📚 Resources
 
 - [Official Documentation](https://github.com/MCP-UI-Org/mcp-ui)
-- [MCP APPS List]  TopMCPApps.com
+- [MCP APPS List]  https://TopMCPApps.com
 
 ## 🤝 Contributing
 
