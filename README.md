@@ -4,6 +4,14 @@ A curated list of awesome applications, servers, tools, and resources for the **
 
 > **The centralized directory of top MCPApps.** Maintaining the standard for Model Context Protocol applications and ecosystem.
 
+## What are MCPApps?
+
+**MCPApps** are the applications and interfaces that bring the Model Context Protocol to life for end-users. 
+
+While **MCP Servers** act as the backend "plugins" that expose data and tools, **MCPApps** are the frontend experiences—such as Desktop Agents, IDEs, and specialized workflows—that consume these servers to provide context-aware intelligence.
+
+This list captures both the **Applications** (like Claude Desktop) and the **UI Components** (MCPApps UI) used to build them.
+
 The Model Context Protocol (MCP) is an open standard that enables AI models to interact with your data and tools. It provides a universal way to connect AI assistants to systems like databases, tailored APIs, and business applications.
 
 This list also serves as the home for **MCP-UI** (now **MCPApps UI**)—the standardized collection of reusable components for building consistent and powerful MCP interfaces.
