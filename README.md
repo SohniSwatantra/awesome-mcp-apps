@@ -20,11 +20,10 @@ This list also serves as the home for **MCP-UI** (now **MCPApps UI**)—the stan
 
 ## 📋 Table of Contents
 
-- [Featured MCPApps](#featured-mcpapps)
+- What is MCP APPS?
 - [MCPApps (UI/Components)](#mcpapps-uicomponents)
-- [MCP Servers](#mcp-servers)
+- [MCPApps List](#featured-mcpapps)
 - [Tools & SDKs](#tools-s-sdks)
-- [Templates & Starters](#templates--starters)
 - [Tutorials & Learning](#tutorials--learning)
 - [Videos & Demos](#videos--demos)
 - [Community & Ecosystem](#community--ecosystem)
