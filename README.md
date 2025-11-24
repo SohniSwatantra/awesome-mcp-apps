@@ -1,6 +1,6 @@
 # Awesome MCP Apps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of awesome applications, servers, tools, and resources for the **Model Context Protocol (MCP) apps **.
+A curated list of awesome applications, UI components, and resources for the **Model Context Protocol (MCP)**.
 
 > **The centralized directory of top MCPApps.** Maintaining the standard for Model Context Protocol applications and ecosystem.
 
@@ -14,22 +14,50 @@ This list captures both the **Applications** and the **UI Components** (MCPApps 
 
 The Model Context Protocol (MCP) is an open standard that enables AI models to interact with your data and tools. It provides a universal way to connect AI assistants to systems like databases, tailored APIs, and business applications.
 
-This list also serves as the home for **MCP-UI** (now **MCPApps UI**)—the standardized collection of reusable components for building consistent and powerful MCP interfaces.
-
 > 🚀 **New to MCP?** Check out the [official documentation](https://modelcontextprotocol.io/introduction) to get started!
 
-## 📋 Table of Contents
+## 📂 Categories
 
-- What is MCP APPS?
-- [MCPApps (UI/Components)](#mcpapps-uicomponents)
-- [MCPApps List](#featured-mcpapps)
-- [Tools & SDKs](#tools-s-sdks)
-- [Tutorials & Learning](#tutorials--learning)
-- [Videos & Demos](#videos--demos)
-- [Community & Ecosystem](#community--ecosystem)
-- [Contributing](#contributing)
+Explore MCPApps by category:
 
----
+| Category | Description |
+| :--- | :--- |
+| [🔗 Aggregators](categories/aggregators.md) | Tools that collect and organize data from multiple sources. |
+| [🎨 Art & Culture](categories/art-culture.md) | Apps for creativity, design, and cultural exploration. |
+| [📐 Architecture & Design](categories/architecture-design.md) | CAD, blueprint, and structural design tools. |
+| [🧬 Biology & Medicine](categories/biology-medicine.md) | Bioinformatics, medical research, and healthcare apps. |
+| [📂 Browser Automation](categories/browser-automation.md) | Tools to automate web tasks and interactions. |
+| [☁️ Cloud Platforms](categories/cloud-platforms.md) | Integrations for AWS, Azure, GCP, and other cloud services. |
+| [👨‍💻 Code Execution](categories/code-execution.md) | Sandboxes and environments for running code safely. |
+| [🤖 Coding Agents](categories/coding-agents.md) | Autonomous agents that help write, review, and fix code. |
+| [🖥️ Command Line](categories/command-line.md) | CLI tools and terminal enhancements. |
+| [💬 Communication](categories/communication.md) | Chat, email, and messaging integrations. |
+| [👤 Customer Data](categories/customer-data.md) | CDPs, CRM, and user profile management. |
+| [📊 Data Platforms](categories/data-platforms.md) | Big data processing, pipelines, and storage. |
+| [🧮 Data Science](categories/data-science.md) | Notebooks, analysis, and visualization tools. |
+| [🗄️ Databases](categories/databases.md) | SQL, NoSQL, and vector database connectors. |
+| [🚚 Delivery](categories/delivery.md) | Logistics, shipping, and tracking integrations. |
+| [🛠️ Developer Tools](categories/developer-tools.md) | Utilities for software development workflows. |
+| [📟 Embedded Systems](categories/embedded-systems.md) | IoT, hardware control, and firmware tools. |
+| [📂 File Systems](categories/file-systems.md) | Local and remote file management. |
+| [💰 Finance & Fintech](categories/finance-fintech.md) | Banking, trading, and financial analysis. |
+| [🎮 Gaming](categories/gaming.md) | Game development, analysis, and playing agents. |
+| [🧠 Knowledge & Memory](categories/knowledge-memory.md) | Second brains, notes, and vector memory systems. |
+| [🗺️ Location Services](categories/location-services.md) | Maps, geolocation, and routing. |
+| [🎯 Marketing](categories/marketing.md) | Adtech, SEO, and campaign management. |
+| [📊 Monitoring](categories/monitoring.md) | Observability, logging, and performance tracking. |
+| [🎥 Multimedia](categories/multimedia.md) | Video, audio, and image processing. |
+| [🔎 Search & Extraction](categories/search-extraction.md) | Web scraping, crawling, and search engines. |
+| [🔒 Security](categories/security.md) | Auth, penetration testing, and vulnerability scanning. |
+| [🌐 Social Media](categories/social-media.md) | Integrations for Twitter, LinkedIn, Reddit, etc. |
+| [🏃 Sports](categories/sports.md) | Analytics and tracking for sports and fitness. |
+| [🎧 Support & Service](categories/support-service.md) | Helpdesk, ticketing, and customer service. |
+| [🗣️ Text-to-Speech](categories/text-to-speech.md) | TTS and voice synthesis. |
+| [🌎 Translation](categories/translation.md) | Language translation and localization. |
+| [🚆 Travel](categories/travel-transportation.md) | Booking, flights, and transportation logistics. |
+| [🔄 Version Control](categories/version-control.md) | Git, SVN, and repo management. |
+| [🏢 Productivity](categories/productivity.md) | Office tools, task management, and collaboration. |
+| [🛠️ Other Tools](categories/other-tools.md) | Integrations that don't fit elsewhere. |
 
 ## 🌟 Featured MCPApps
 
@@ -37,74 +65,21 @@ Applications that showcase the power of MCP in production or creative environmen
 
 - [Claude Desktop](https://claude.ai/download) - The official desktop app from Anthropic with built-in MCP client support.
 - [Cursor](https://cursor.com) - The AI code editor that can connect to MCP servers for enhanced codebase context (Coming soon/Experimental).
-- *[Add your app here]*
 
 ## 🧩 MCPApps (UI/Components)
 
-Standardized **MCPApps** UI components and frontend libraries (formerly MCP-UI).
+Standardized **MCPApps** UI components and frontend libraries.
 
 - *[Add a component here]*
 
-## 🔌 MCP Servers
+## 📚 Resources
 
-Servers that expose data and tools to MCP clients.
-
-### Official / Verified
-- [mcp-server-git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Tools to read, search, and manipulate Git repositories.
-- [mcp-server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - Read-only database inspector for PostgreSQL.
-- [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Secure file system access.
-
-### Community
-- *[Add a community server here]*
-
-## 🛠️ Tools & SDKs
-
-Libraries and utilities for building MCP clients and servers.
-
-### TypeScript / JavaScript
-- [modelcontextprotocol/sdk](https://github.com/modelcontextprotocol/typescript-sdk) - The official TypeScript SDK for MCP.
-
-### Python
-- [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) - The official Python SDK for MCP.
-
-## 📝 Templates & Starters
-
-Boilerplates to jumpstart your MCP development.
-
-- [mcp-starter-ts](https://github.com/modelcontextprotocol/typescript-sdk) - Basic TypeScript starter.
-- [mcp-starter-py](https://github.com/modelcontextprotocol/python-sdk) - Basic Python starter.
-
-## 📚 Tutorials & Learning
-
-Guides and articles to help you understand and implement MCP.
-
-- [Building your first MCP Server](https://modelcontextprotocol.io/quickstart) - The official quickstart guide.
-- [MCP Architecture Overview](https://modelcontextprotocol.io/docs/concepts/architecture) - Deep dive into how MCP works.
-
-## 🎥 Videos & Demos
-
-Visual content and walkthroughs.
-
-- *[Add a video link here]*
-
-## 🌍 Community & Ecosystem
-
-Where to find help and discuss MCP.
-
-- [MCP Discord](https://discord.com/invite/anthropic) - Join the conversation in the #mcp channels.
-- [GitHub Discussions](https://github.com/modelcontextprotocol/feedback/discussions) - Official feedback and discussions.
-
----
+- [Official Documentation](https://modelcontextprotocol.io)
+- [MCP Servers List](https://github.com/punkpeye/awesome-mcp-servers)
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
 
 ## 📜 License
 

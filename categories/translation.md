@@ -1,0 +1,12 @@
+# 🌎 Translation Services
+
+[🔙 Back to Main List](../README.md)
+
+A curated list of MCPApps for **Translation Services**.
+
+## Apps & Tools
+
+- *[Add your app here]*
+
+---
+[Contribute](../CONTRIBUTING.md) to this list!

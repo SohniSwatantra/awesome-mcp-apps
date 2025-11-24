@@ -1,0 +1,12 @@
+# 🤖 Coding Agents
+
+[🔙 Back to Main List](../README.md)
+
+A curated list of MCPApps for **Coding Agents**.
+
+## Apps & Tools
+
+- *[Add your app here]*
+
+---
+[Contribute](../CONTRIBUTING.md) to this list!
