@@ -148,7 +148,7 @@ function MyApp({ mcpResource }) {
 
 ## 📚 Resources
 
-- [Official Documentation](https://modelcontextprotocol.io)
+- [Official Documentation](https://github.com/MCP-UI-Org/mcp-ui)
 - [MCP Servers List](https://github.com/punkpeye/awesome-mcp-servers)
 
 ## 🤝 Contributing
