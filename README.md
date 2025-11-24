@@ -80,6 +80,21 @@ Standardized **MCPApps** UI components and frontend libraries.
 
 **Server Side** - Create interactive resources to return in your MCP tool results:
 
+### TypeScript
+
+```typescript
+import { createUIResource } from '@mcp-ui/server';
+
+const interactiveForm = createUIResource({
+  uri: 'ui://user-form/1',
+  content: {
+    type: 'externalUrl',
+    iframeUrl: 'https://yourapp.com'
+  },
+  encoding: 'text',
+});
+```
+
 ### Python
 
 ```python
