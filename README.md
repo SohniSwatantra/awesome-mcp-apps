@@ -65,7 +65,7 @@ Explore MCPApps by category:
 
 Applications that showcase the power of MCP APPS in production or creative environments.
 
-- 
+- Post in r/MCPservers (https://www.reddit.com/r/MCPservers/) your APP and based of popularity within Community - we will feature your APP here.
   
 
 ## 🧩 MCPApps (UI/Components)
