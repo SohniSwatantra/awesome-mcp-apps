@@ -1,0 +1,19 @@
+name: General Question
+description: Ask a question about the project or MCP ecosystem
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're here to help!
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+      placeholder: I was wondering how to...
+    validations:
+      required: true
+

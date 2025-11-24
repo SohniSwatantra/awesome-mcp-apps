@@ -1,0 +1,66 @@
+name: Add New MCP App/Tool
+description: Submit a new app, server, or tool to the list
+title: "[ADD] <Project Name>"
+labels: ["app", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in adding to Awesome MCP Apps!
+        Please fill out the details below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      description: What is the name of the app/tool?
+      placeholder: e.g. Claude Desktop
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: URL to the project (GitHub, Website, etc.)
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of what it does (1-2 sentences).
+      placeholder: A desktop application that allows...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Where does this belong?
+      options:
+        - Featured MCP Apps
+        - MCP-UI Components
+        - MCP Servers
+        - Tools & SDKs
+        - Templates & Starters
+        - Tutorials & Learning
+        - Videos & Demos
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have read the CONTRIBUTING guidelines.
+          required: true
+        - label: This project is relevant to the Model Context Protocol.
+          required: true
+        - label: I have checked for duplicates.
+          required: true
+

@@ -1,0 +1,43 @@
+[
+  {
+    "name": "app",
+    "color": "1d76db",
+    "description": "New app or tool"
+  },
+  {
+    "name": "ui-component",
+    "color": "d93f0b",
+    "description": "UI component submission"
+  },
+  {
+    "name": "server",
+    "color": "0e8a16",
+    "description": "MCP server submission"
+  },
+  {
+    "name": "tutorial",
+    "color": "fbca04",
+    "description": "Tutorial or learning resource"
+  },
+  {
+    "name": "question",
+    "color": "d876e3",
+    "description": "Further information is requested"
+  },
+  {
+    "name": "enhancement",
+    "color": "a2eeef",
+    "description": "New feature or request"
+  },
+  {
+    "name": "docs",
+    "color": "0075ca",
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "name": "needs-review",
+    "color": "f9d0c4",
+    "description": "Awaiting review from maintainers"
+  }
+]
+
