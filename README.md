@@ -18,7 +18,7 @@ The Model Context Protocol (MCP) is an open standard that enables AI models to i
 
 > 🚀 **New to MCP?** Check out the [official documentation](https://modelcontextprotocol.io/introduction) to get started!
 
-`[Demo](462652379-7-509483.mp4)` -b67679509483
+https://github.com/user-attachments/assets/7180c822-2dd9-4f38-9d3e-b67679509483
 
 ## 📂 Categories
 
