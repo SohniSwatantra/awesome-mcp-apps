@@ -19,7 +19,7 @@ We love to see new MCP apps, servers, and tools added to the list. To ensure hig
 
 ### General Requirements
 
-*   **Relevance**: The item must be directly related to the **Model Context Protocol (MCP)**.
+*   **Relevance**: The item must be directly related to the **Model Context Protocol (MCP) APPS**.
 *   **Quality**: Please only submit projects that are useful, documented, and working.
 *   **No Spam**: Do not add entries purely for SEO or self-promotion without value.
 
