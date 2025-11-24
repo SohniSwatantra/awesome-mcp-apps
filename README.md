@@ -76,6 +76,76 @@ Standardized **MCPApps** UI components and frontend libraries.
 
 - *[Add a component here]*
 
+## ⚡ Quick Example (will be updated shortly!)
+
+**Server Side** - Create interactive resources to return in your MCP tool results:
+
+### Python
+
+```python
+from mcp_ui_server import create_ui_resource
+
+interactive_form = create_ui_resource({
+    "uri": "ui://user-form/1",
+    "content": {
+        "type": "externalUrl",
+        "iframeUrl": "https://yourapp.com"
+    },
+    "encoding": "text"
+})
+```
+
+**Client Side** - Render on the host with a single component:
+
+### React
+
+```jsx
+import { UIResourceRenderer } from '@mcp-ui/client';
+
+// `mcpResource` would come from your MCP response
+function MyApp({ mcpResource }) {
+  return (
+    <UIResourceRenderer
+      resource={mcpResource.resource}
+      onUIAction={(action) => {
+        console.log('User action:', action);
+      }}
+    />
+  );
+}
+```
+
+### Web Component / HTML
+
+```html
+<!-- index.html -->
+<ui-resource-renderer id="resource-renderer"></ui-resource-renderer>
+
+<!-- main.js -->
+<script type="module">
+  // 1. Import the script to register the component
+  import '@mcp-ui/client/ui-resource-renderer.wc.js';
+
+  // 2. This object would come from your MCP response
+  const mcpResource = {
+    resource: {
+      uri: 'ui://user-form/1',
+      mimeType: 'text/uri-list',
+      text: 'https://example.com'
+    }
+  };
+
+  // 3. Get the element and pass data
+  const renderer = document.getElementById('resource-renderer');
+  renderer.setAttribute('resource', JSON.stringify(mcpResource.resource));
+
+  // 4. Listen for events
+  renderer.addEventListener('onUIAction', (event) => {
+    console.log('User action:', event.detail);
+  });
+</script>
+```
+
 ## 📚 Resources
 
 - [Official Documentation](https://modelcontextprotocol.io)
