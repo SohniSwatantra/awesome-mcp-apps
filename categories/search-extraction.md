@@ -6,7 +6,7 @@ A curated list of MCPApps for **Search & Data Extraction**.
 
 ## Apps & Tools
 
-- [BGPT MCP](https://github.com/connerlambden/bgpt-mcp) - Search scientific papers with structured experimental data extracted from full-text studies, returning 25+ fields per paper including methods, results, sample sizes, and quality scores.
+- [BGPT MCP](https://github.com/connerlambden/bgpt-mcp) - Search scientific papers with structured experimental data (methods, results, sample sizes, quality scores) extracted from full-text studies.
 
 ---
 [Contribute](../CONTRIBUTING.md) to this list!
