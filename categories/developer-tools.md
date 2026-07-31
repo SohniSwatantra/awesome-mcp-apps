@@ -6,7 +6,7 @@ A curated list of MCPApps for **Developer Tools**.
 
 ## Apps & Tools
 
-- *[Add your app here]*
+- [Charming](https://github.com/tambo-labs/charming-mcp) - A hosting platform for personal apps you and your agent build, update, and use together.
 
 ---
 [Contribute](../CONTRIBUTING.md) to this list!
